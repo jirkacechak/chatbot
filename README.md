@@ -2,7 +2,7 @@
 Chatbot Based on Artificial Neural Networks.
 
 ### Usage:
-`py chatbot.py [-h|--help] [--mode=[train|chat|test]] [--model=\<number\>] [--dataLimit=\<number\>] [--testDataLimit=\<number\>] [--testing=[yes|no]] [--usw=[yes|no]] [--gui=[yes|no]]`
+`py chatbot.py [-h|--help] [--mode=[train|chat|test]] [--model=<number>] [--dataLimit=<number>] [--testDataLimit=<number>] [--testing=[yes|no]] [--usw=[yes|no]] [--gui=[yes|no]]`
 
 #### Options:
 | Parameter | Description |
