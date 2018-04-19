@@ -2,24 +2,30 @@
 Chatbot Based on Artificial Neural Networks.
 
 ### Usage:
-  py chatbot.py [-h|--help] [--mode=[train|chat|test]] [--model=\<number\>] [--dataLimit=\<number\>] [--testDataLimit=\<number\>] [--testing=[yes|no]] [--usw=[yes|no]] [--gui=[yes|no]]
+`py chatbot.py [-h|--help] [--mode=[train|chat|test]] [--model=\<number\>] [--dataLimit=\<number\>] [--testDataLimit=\<number\>] [--testing=[yes|no]] [--usw=[yes|no]] [--gui=[yes|no]]`
 
 #### Options:
--h, --help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show help.  
---mode=[train|chat|test]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Training (default)/chatting/testing mode.  
---model=\<number\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Used model number (1 (default)/2/3)  
---dataLimit=\<number\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Limit for training data (\<number\> >= 100 | \<number\> == 0 (no limit)).  
---testDataLimit=\<number\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Limit for testing data (\<number\> >= 1 | \<number\> == 0 (no limit)).  
---testing=[yes|no]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enable (default)/disable testing each training epoch.  
---usw=[yes|no]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Train model using (default)/without using saved model weights.  
---gui=[yes|no]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chatting using (default)/without using GUI.  
+| Parameter | Description |
+| - | - |
+| `-h`, `--help` | Show help. |
+| `--mode=[train\|chat\|test]` | Training (default)/chatting/testing mode. |
+| `--model=<number>` | Used model number (1 (default)/2/3)  
+| `--dataLimit=<number>` | Limit for training data (\<number\> >= 100 | \<number\> == 0 (no limit)). |
+| `--testDataLimit=<number>` | Limit for testing data (\<number\> >= 1 | \<number\> == 0 (no limit)). |
+| `--testing=[yes\|no]` | Enable (default)/disable testing each training epoch. |
+| `--usw=[yes\|no]` | Train model using (default)/without using saved model weights. |
+| `--gui=[yes\|no]` | Chatting using (default)/without using GUI. |
 
 #### Examples:  
-py chatbot.py --help  
-py chatbot.py --model=1 --dataLimit=1000 --testing=no --usw=no  
-py chatbot.py --mode=chat --model=1  
-py chatbot.py --mode=chat --model=1 --gui=no  
-py chatbot.py --mode=test --model=1 --testDataLimit=100  
+`py chatbot.py --help`
+
+`py chatbot.py --model=1 --dataLimit=1000 --testing=no --usw=no`
+
+`py chatbot.py --mode=chat --model=1`
+
+`py chatbot.py --mode=chat --model=1 --gui=no`
+
+`py chatbot.py --mode=test --model=1 --testDataLimit=100`
 
 ### Requirements:
 - Microsoft Windows 10
