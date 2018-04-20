@@ -10,8 +10,8 @@ Chatbot Based on Artificial Neural Networks.
 | `-h`, `--help` | Show help. |
 | `--mode=[train\|chat\|test]` | Training (default)/chatting/testing mode. |
 | `--model=<number>` | Used model number (1 (default)/2/3)  
-| `--dataLimit=<number>` | Limit for training data (\<number\> >= 100 | \<number\> == 0 (no limit)). |
-| `--testDataLimit=<number>` | Limit for testing data (\<number\> >= 1 | \<number\> == 0 (no limit)). |
+| `--dataLimit=<number>` | Limit for training data (\<number\> >= 100 \| \<number\> == 0 (no limit)). |
+| `--testDataLimit=<number>` | Limit for testing data (\<number\> >= 1 \| \<number\> == 0 (no limit)). |
 | `--testing=[yes\|no]` | Enable (default)/disable testing each training epoch. |
 | `--usw=[yes\|no]` | Train model using (default)/without using saved model weights. |
 | `--gui=[yes\|no]` | Chatting using (default)/without using GUI. |
