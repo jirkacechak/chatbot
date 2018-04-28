@@ -1,10 +1,10 @@
 # Chatbot George
 Chatbot Based on Artificial Neural Networks.
 
-### Usage:
+### Usage
 `py chatbot.py [-h|--help] [--mode=[train|chat|test]] [--model=<number>] [--dataLimit=<number>] [--testDataLimit=<number>] [--testing=[yes|no]] [--usw=[yes|no]] [--gui=[yes|no]]`
 
-#### Options:
+#### Options
 | Parameter | Description |
 | - | - |
 | `-h`, `--help` | Show help. |
@@ -16,7 +16,7 @@ Chatbot Based on Artificial Neural Networks.
 | `--usw=[yes\|no]` | Train model using (default)/without using saved model weights. |
 | `--gui=[yes\|no]` | Chatting using (default)/without using GUI. |
 
-#### Examples:  
+#### Examples
 `py chatbot.py --help`
 
 `py chatbot.py --model=1 --dataLimit=1000 --testing=no --usw=no`
@@ -27,14 +27,14 @@ Chatbot Based on Artificial Neural Networks.
 
 `py chatbot.py --mode=test --model=1 --testDataLimit=100`
 
-### Before using:
+### Before using
 Download pretrained vectors for word representation from https://nlp.stanford.edu/projects/glove/ and unzip downloaded file in /data/glove folder. Then edit the appropriate constants in the `constants.py` file.
 
-### Requirements:
+### Requirements
 - Microsoft Windows 10
 - Python 3.6.3
 
-#### Libraries:
+#### Libraries
 - gensim 3.3.0
 - graphviz 2.38
 - h5py 2.7.1
@@ -51,3 +51,8 @@ Download pretrained vectors for word representation from https://nlp.stanford.ed
 - tensorflow 1.5.0
 - tensorflow-tensorboard 1.5.1
 - theano 1.0.1
+
+### References and Credits
+1. https://github.com/oswaldoludwig/Seq2seq-Chatbot-for-Keras
+2. https://github.com/codedak/chatbot
+3. https://github.com/bshao001/ChatLearner
