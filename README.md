@@ -28,7 +28,7 @@ Chatbot Based on Artificial Neural Networks.
 `py chatbot.py --mode=test --model=1 --testDataLimit=100`
 
 ### Before using
-Download pretrained vectors for word representation from https://nlp.stanford.edu/projects/glove/ and unzip downloaded file in /data/glove folder. Then edit the appropriate constants in the `constants.py` file.
+Download pretrained vectors for word representation from https://nlp.stanford.edu/projects/glove/ and unzip downloaded file in `/data/glove` folder. Then edit the appropriate constants in the `constants.py` file.
 
 ### Requirements
 - Microsoft Windows 10
