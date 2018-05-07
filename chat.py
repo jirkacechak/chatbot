@@ -1,6 +1,6 @@
 """Chatting module.
 
-File: constants.py
+File: chat.py
 Author: Jiří Čechák
 Date: 12.04.2018
 Python Version: 3.6.3
